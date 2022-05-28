@@ -5,49 +5,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Webpage</title>
+    <title>Samarpan</title>
 </head>
 
-<body>
-    <h1>Siege of Compiègne</h1>
+<body style="background-color: #DCEDC1;">
+    <h1 style="color: #F6416C; font-family: Copperplate;">Hi, I'm Samarpan.</h1>
+    This is my website.
     <hr>
-    From Wikipedia, the free encyclopedia
-    <br>
     <ol type="i">
         <li>
             <span class="icon">
                 <ion-icon name="logo-youtube"></ion-icon>
             </span>
-            <a href="https://youtube.com" target="_blank">Youtube</a>
+            <a href="https://youtube.com" target="_blank"> Youtube</a>
         </li>
         <li>
             <span class="icon">
                 <ion-icon name="logo-google"></ion-icon> 
             </span>
-            <a href="https://google.com" target="_blank">Google</a>
+            <a href="https://google.com" target="_blank"> Google</a>
         </li>
     </ol>
-    <p>The siege of Compiègne (1430) was conducted by Duke Philip
-        III of Burgundy after the town of Compiègne had refused to transfer allegiance to him under the terms of a
-        treaty with Charles VII. The siege is perhaps best known for Joan of Arc's capture by Burgundian troops while
-        accompanying an Armagnac force during a skirmish outside the town on 23 May 1430. Although this was otherwise a
-        minor siege, both politically and militarily, and ultimately ended in a defeat for the Burgundians, the capture
-        of Joan of Arc was an important event of the Hundred Years' War.</p>
-    <pre>
-                     Contents
-            1	Background
-            2	Events
-            2.1	Preparation
-            2.2	Combat
-            2.3	Capture of Joan of Arc
-            3	Footnotes
-            3.1	Citations
-            4	References
-            5	Further reading
-            </pre>
+    <hr>
     <h3>Skills</h3>
     <div>
-        <table cellspacing="10">
+        <table cellspacing="5">
             <tr>
                 <td>Web Development</td>
                 <td>⭐️⭐️</td>
@@ -56,26 +38,16 @@
                 <td>C/C++</td>
                 <td>⭐️⭐️⭐️</td>
             </tr>
-        </table>
-    </div>
-
-    <div>
-        <table>
             <tr>
-                <th>SN</th>
-                <th>Name</th>
-                <th>Address</th>
-            </tr>
-            <tr>
-                <td>1.</td>
-                <td>Samarpan</td>
-                <td>Dharan-16</td>
+                <td>Python</td>
+                <td>⭐️⭐️</td>
             </tr>
         </table>
     </div>
+    <hr>
 
     <div>
-        <h1>Form</h1>
+        <h3>Form</h3>
         <form action="form.php">
             <input type="text" placeholder="Enter your name">
             <br>
@@ -91,29 +63,35 @@
             </label>
         </form>
         <br>
-        <textarea name="explain" id="explain" cols="30" rows="10" placeholder="Enter something"></textarea>
     </div>
 
     <div>
-        <select name="anime" id="anime">
-            <option value="no-name">Select an Anime</option>
+        <select name="anime" placeholder="Select">
+            <optgroup label="Anime"></optgroup>
             <option value="op">One Piece</option>
             <option value="db">Dragon BallZ</option>
             <option value="kg">Kingdom</option>
         </select>
+        <input type="button" name="ok" id="submit" value="Submit">
     </div>
     <br>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <hr>
 
+    <h3>Contact Me</h3>
     <div>
         <form action="/form.php">
             <label for="name">
-                Name <input type="text" name="yourName" id="name"> <br><br>
+                Name <input type="text" name="yourName" id="name"> <br>
             </label>
             <label for="address">
-            Address <input type="text" name="yourAddress id="address">
+                E-mail<input type="email" name="email" id="address"><br>
             </label>
+            <label for="message">
+                <textarea name="message" id="message" cols="20" rows="5" placeholder="Message"></textarea><br>
+            </label>
+            <input type="submit" name="submit" id="submit1">
         </form>
     </div>
 
