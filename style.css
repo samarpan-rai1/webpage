@@ -3,33 +3,27 @@
 
 body{
     color: #354259;
-    text-align: center;
     background-color: #C2DED1;
-    font-family: 'Roboto Mono', monospace;;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
 }
-
 h1{
     color: #C70A80;
 }
-
-#sectionid{
-    color: #354259;
-}
-
 h3{
     color: #293462;
     font-family: 'Oswald', sans-serif;
 }
 hr{
     border-style: none;
-    border-top-style: dotted;
-    width: 4%;
+    border-top-style: dashed ;
     border-color: grey;
     border-width: 5px;
+    width: 10%;
 }
 footer{
-    height: 12vh;
     color: black;
     display: flex;
+    height: 12vh;
     justify-content: center;
 }
