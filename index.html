@@ -4,19 +4,114 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Today's Challenge</title>
-    <link rel="stylesheet" href="CSS/challenge.css">
+    <title>Practice</title>
 </head>
-    <body>
-    <main id="indx">
-        <img src="trophy.png" alt="Trophy" class="trophy">
-        <h2>My Challenge for Monday,Jestha 17.</h1>
-        <p class="sec">learn about the basics of web development</p>
+<body>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+body{
+    text-align: center;
+    background-color: rgb(244, 234, 255);
+    font-family: 'Lato', sans-serif;
+}
+main{
+    background-color: rgb(122, 74, 218);
+    width: 60%;
+    margin: 0 auto 20px auto;
+    border-radius: 10px;
+    color: rgb(248, 241, 255);
+}
+a{
+    background-color: #ebc75b;
+    padding: 3px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+img{
+    width: 120px;
+    height: 120px;
+}
+.html{
+    text-align: left;
+    padding: 20px;
+}
+.css{
+    text-align: left;
+    padding: 20px;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(88, 49, 196);
+}
+h2{
+    font-family: 'Roboto', sans-serif;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+li{
+    margin: 7px;
+    padding: 5px;
+    border-left: 5px solid transparent;
+}
+p{
+    margin: none;
+}
+#summary{
+    background-color: #FFD24C;
+    width: 17%;
+    margin: auto;
+    border-radius: 5px;
+    padding: 8px;
+    color: black;
+    text-decoration: none;
+}
+.tag{
+    border-color: #FFD24C;
+    color: #ebc75b;
+}
+
+    </style>
+
+    <header>
+        <h1>HTML & CSS Basics Summary</h1>
+        <img src="pngegg.png" alt="HTML/CSS">
+    </header>
+
+    <main>
+        <div class="html">
+            <h2>HTML Summary</h2>
+            <p>HTML(HyperText Markup Language) is used to define our page content,structure and meaning.You don't use it for styling purposes.Use CSS for that instead!</p>
+            <ul>
+                <li class="tag">HTML uses "elements" to describe(annotate) content</li>
+                <li>HTML elements typically have an opening tag,content and then a closing tag</li>
+                <li class="tag">You can also have void(empty) elements like images</li>
+                <li class="tag">You can also configure elements with attributes</li>
+                <li>There is a long list of available elements but you will gain experience over time.</li>
+            </ul>
+            <p>Learn more about all available HTMl elements on <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Learn/HTML">the MDN HTML elements reference</a></p>
+        </div>
+        
+        <div class="css">
+            <h2>CSS Summary</h2>
+            <p>CSS(Cascading Style Sheets) is used for styling your page content.</p>
+            <ul>
+                <li>Styles are assigned via property-value pairs</li>
+                <li>You can assign styles via "style" attribute</li>
+                <li class="tag">To avoid code duplication, you typically use global styles(e.g via the 'style' element) instead</li>
+                <li>Alternatively, you can work with external stylesheet that you can link</li>
+                <li class="tag">When working with CSS,concepts like "inheritance","speciality" and the "box model" should be understood</li>
+            </ul>
+            <p>Learn more about all CSS properties value on <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Learn/CSS">the MDN CSS property reference</a></p>
+        </div>
+
     </main>
 
     <footer>
-        <p id="lnk">Explore the<a id="link" href="challenge.html">full week</a></p>
+        <a target="_blank" id="summary" href="github-git-cheat-sheet.pdf">Download PDF Summary</a>
+        <p>&copy Samarpan 2022</p>
     </footer>
-
-    </body>
+</body>
 </html>
